@@ -1,2 +1,0 @@
--keep class nl.wachtwoordmanager.** { *; }
--keep class com.google.gson.** { *; }
