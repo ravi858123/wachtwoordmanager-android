@@ -1,24 +1,29 @@
 # 🔑 Wachtwoordmanager
 
-Een eenvoudige, veilige en gratis wachtwoordmanager beschikbaar voor **Windows** en **Android**.  
+Een eenvoudige, veilige en gratis wachtwoordmanager voor **Windows** en **Android**.
 Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — niemand anders heeft toegang tot jouw gegevens.
+
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![MIT License](https://img.shields.io/badge/Licentie-MIT-yellow?style=for-the-badge)
+![AES-256](https://img.shields.io/badge/Versleuteling-AES--256-red?style=for-the-badge)
 
 ---
 
 ## 📸 Screenshots
 
-> *Windows en Android versie*
+> *Windows en Android versie — binnenkort beschikbaar*
 
 ---
 
 ## ✨ Functies
 
 - 🔒 Beveiligd met een hoofdwachtwoord (AES-256 versleuteling)
-- 📋 Sla websites, gebruikersnamen, wachtwoorden en notities op
-- 🔍 Zoeken door je opgeslagen items
-- ⚡ Wachtwoord met één klik kopiëren naar klembord
-- 🎲 Ingebouwde wachtwoordgenerator (instelbare lengte + symbolen)
-- 💾 Alle data wordt lokaal opgeslagen — niets gaat naar het internet
+- 📁 Sla websites, gebruikersnamen, wachtwoorden en notities op
+- 🔍 Zoek door je opgeslagen items
+- 📋 Kopieer wachtwoord met één klik naar het klembord
+- 🎲 Ingebouwde wachtwoordgenerator (instelbare lengte en symbolen)
+- 🌐 Alle data wordt lokaal opgeslagen — niets gaat naar het internet
 
 ---
 
@@ -26,7 +31,7 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 
 ### Windows
 
-1. Download `wachtwoordmanager.exe` uit de [laatste release](../../releases/latest)
+1. Download `Wachtwoordmanager.exe` uit de [laatste release](../../releases/latest)
 2. Dubbelklik op het bestand en start de app
 3. Geen installatie nodig
 
@@ -67,8 +72,8 @@ Of dubbelklik op `bouw_exe.bat`.
 
 ### Android APK
 
-De APK wordt automatisch gebouwd via GitHub Actions bij elke push naar `main`.  
-Je kunt de APK downloaden onder het tabblad **Actions → Artifacts**.
+De APK wordt automatisch gebouwd via GitHub Actions bij elke push naar `main`.
+Download de APK onder het tabblad **Actions → Artifacts**.
 
 ---
 
@@ -76,23 +81,23 @@ Je kunt de APK downloaden onder het tabblad **Actions → Artifacts**.
 
 ```
 wachtwoordmanager/
-├── wachtwoordmanager.py          # Windows applicatie (Python/Tkinter)
-├── wachtwoordmanager.ico         # Windows icoon
-├── bouw_exe.bat                  # Windows build script
-├── android/                      # Android applicatie (Java)
+├── wachtwoordmanager.py              # Windows applicatie (Python/Tkinter)
+├── wachtwoordmanager.ico             # Windows icoon
+├── bouw_exe.bat                      # Windows build script
+├── android/                          # Android applicatie (Java)
 │   ├── app/src/main/
 │   │   ├── java/nl/wachtwoordmanager/
 │   │   │   ├── App.java
-│   │   │   ├── Crypto.java       # AES-256 versleuteling
-│   │   │   ├── Kluis.java        # Data opslag
+│   │   │   ├── Crypto.java           # AES-256 versleuteling
+│   │   │   ├── Kluis.java            # Data opslag
 │   │   │   ├── LoginActivity.java
 │   │   │   ├── MainActivity.java
 │   │   │   ├── ItemActivity.java
 │   │   │   ├── ItemAdapter.java
 │   │   │   └── WachtwoordItem.java
-│   │   └── res/                  # Layouts, iconen, teksten
+│   │   └── res/                      # Layouts, iconen, teksten
 │   └── .github/workflows/
-│       └── bouw_apk.yml          # Automatische APK build
+│       └── bouw_apk.yml              # Automatische APK build
 └── LICENSE
 ```
 
