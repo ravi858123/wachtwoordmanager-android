@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blauw">#1a73e8</color>
+    <color name="blauw_donker">#1558b0</color>
+    <color name="donker">#202124</color>
+    <color name="grijs">#f1f3f4</color>
+    <color name="grijs_tekst">#5f6368</color>
+    <color name="wit">#ffffff</color>
+    <color name="rood">#d93025</color>
+    <color name="groen">#1e8e3e</color>
+    <color name="selectie">#e8f0fe</color>
+</resources>
