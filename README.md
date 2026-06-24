@@ -7,7 +7,7 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![MIT License](https://img.shields.io/badge/Licentie-MIT-yellow?style=for-the-badge)
 ![AES-256](https://img.shields.io/badge/Versleuteling-AES--256-red?style=for-the-badge)
-![APK app](https://plain-weur-prod-public.komododecks.com/202606/24/HlHv6MhhrkfndTOWG02R/image.png)
+![APK app](https://plain-weur-prod-public.komododecks.com/202606/24/JQaAeP0UDO9Wh9fffDl1/image.png)
 
 ---
 
