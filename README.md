@@ -91,6 +91,6 @@ Bijdragen zijn welkom! Voel je vrij om een [issue](../../issues) aan te maken of
 
 ---
 
-## 📄 Licentie
+##  Licentie
 
 Dit project valt onder de [MIT-licentie](LICENSE).
