@@ -11,7 +11,7 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > *Windows en Android versie — binnenkort beschikbaar*
 
@@ -28,7 +28,7 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 
 ---
 
-## 📦 Installatie
+##  Installatie
 
 ### Windows
 
@@ -45,7 +45,7 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 
 ---
 
-## 🔐 Beveiliging
+##  Beveiliging
 
 | Onderdeel | Details |
 |---|---|
@@ -54,31 +54,12 @@ Alle wachtwoorden worden lokaal opgeslagen en versleuteld met AES-256 — nieman
 | Opslag | Lokaal op je apparaat |
 | Netwerk | Geen — de app maakt geen internetverbinding |
 
-> ⚠️ Er is geen "wachtwoord vergeten" optie. Onthoud je hoofdwachtwoord goed — zonder dit zijn je gegevens niet toegankelijk.
+> LET OP: Er is geen "wachtwoord vergeten" optie. Onthoud je hoofdwachtwoord goed — zonder dit zijn je gegevens niet toegankelijk.
 
 ---
 
-## 🛠️ Zelf bouwen
 
-### Windows EXE
-
-Vereisten: [Python 3.8+](https://www.python.org/downloads/)
-
-```bash
-pip install cryptography pyinstaller
-pyinstaller --onefile --windowed --name "Wachtwoordmanager" --icon "wachtwoordmanager.ico" wachtwoordmanager.py
-```
-
-Of dubbelklik op `bouw_exe.bat`.
-
-### Android APK
-
-De APK wordt automatisch gebouwd via GitHub Actions bij elke push naar `main`.
-Download de APK onder het tabblad **Actions → Artifacts**.
-
----
-
-## 📁 Projectstructuur
+##  Projecttmapsructuur
 
 ```
 wachtwoordmanager/
@@ -104,7 +85,7 @@ wachtwoordmanager/
 
 ---
 
-## 🤝 Bijdragen
+##  Bijdragen
 
 Bijdragen zijn welkom! Voel je vrij om een [issue](../../issues) aan te maken of een [pull request](../../pulls) in te dienen.
 
